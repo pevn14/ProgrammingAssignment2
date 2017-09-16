@@ -63,4 +63,4 @@ cacheSolve: This function computes the inverse of the special "matrix" returned 
   [2,]   -3    1  1.0
   [3,]    1    0 -0.5
   >
-# end of test sequence
+### end of test sequence
