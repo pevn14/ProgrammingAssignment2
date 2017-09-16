@@ -1,4 +1,4 @@
-### Introduction
+## Introduction
 
 Peer-graded Assignment: Programming Assignment 2: Lexical Scoping
 
@@ -8,8 +8,8 @@ makeCacheMatrix: This function creates a special "matrix" object that can cache 
 
 cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix above. If the inverse has already been calculated (and the matrix has not changed), then cacheSolve should retrieve the inverse from the cache.
 
-### Test of the functions : makeCacheMatrix()and cacheSolve 
-# Test sequence (copy past to the console)
+## Test of the functions : makeCacheMatrix()and cacheSolve 
+### Test sequence (copy past to the console)
   A<-matrix(data = 1:4, nrow = 2, ncol = 2)
   B<-matrix(c(1,1,2,2,3,4,5,7,8), nrow = 3, ncol = 3)
   solve(A)
@@ -22,9 +22,9 @@ cacheSolve: This function computes the inverse of the special "matrix" returned 
   my_matrix$set(B)
   cacheSolve(my_matrix)
   my_matrix$getinv()
-# end of test sequence
+### end of test sequence
   
-# test sequence with expected results
+### test sequence with expected results
   > A<-matrix(data = 1:4, nrow = 2, ncol = 2)
   > B<-matrix(c(1,1,2,2,3,4,5,7,8), nrow = 3, ncol = 3)
   > solve(A)
